@@ -1,0 +1,12 @@
+#pragma once
+#include <SDL.h>
+#include <SDL_ttf.h>
+#include <stdio.h>
+#include <string>
+#include <cmath>
+#include <list>
+#include <string> 
+#include "Body.h"
+#include "ControlsAndMechanics.h"
+#include "Snake.h"
+#include "Draw.h"
