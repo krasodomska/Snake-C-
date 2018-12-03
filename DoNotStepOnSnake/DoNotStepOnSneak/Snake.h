@@ -1,11 +1,6 @@
 #pragma once
 class Snake
 {
-	/*Snake() {}
-	Snake(const Snake &o) {}
-	static Snake *theInstance;
-	*/
-
 public:
 	//coordination of the snake head
 	static int xCoordination;
@@ -33,13 +28,4 @@ public:
 	static const int planeHeight = 300;
 	static const int planeTopMargin = 15;
 	static const int planeLeftMargin = 15;
-
-
-	/*static Snake& getSnake()
-	{
-		if (!theInstance)
-			Snake::theInstance = new Snake();
-
-		return *theInstance;
-	}*/
 };
