@@ -10,7 +10,7 @@ public:
 	//coordination of the snake head
 	static int xCoordination;
 	static int yCoordination;
-	//list that contain snake body coordinations
+	//list that contains snake body coordinations
 	static std::list<Body> snakeBody;
 	//size of snake
 	static int size;
