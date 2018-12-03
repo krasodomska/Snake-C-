@@ -7,7 +7,7 @@ public:
 	bool ableToMove(int direction); 
 	void controls();
 	void move();
-	//how ofen snake will be step forward
+	//how ofen snake will step forward
 	Uint32 stepTime = SDL_GetTicks();
 	bool tailBite();
 	bool stepOnApple();
