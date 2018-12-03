@@ -77,11 +77,11 @@ bool ControlsAndMechanics::ableToMove(int direction)
 			return true;
 		else
 			Snake::gameOver = true;
-			return false;
+		return false;
 	}
 	else
 		Snake::gameOver = true;
-		return false;
+	return false;
 }
 
 //control snake movment
